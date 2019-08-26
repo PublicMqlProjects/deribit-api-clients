@@ -212,7 +212,7 @@ namespace Org.OpenAPITools.Model
         /// </summary>
         /// <value>The timestamp of the trade</value>
         [DataMember(Name="timestamp", EmitDefaultValue=false)]
-        public int? Timestamp { get; set; }
+        public long? Timestamp { get; set; }
 
         /// <summary>
         /// The price of the trade
